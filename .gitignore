@@ -1,0 +1,5 @@
+# local WIP (L1) - not in git, not in the cross-machine source
+.agnes/
+# system
+Thumbs.db
+desktop.ini
