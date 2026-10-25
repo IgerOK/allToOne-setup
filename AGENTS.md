@@ -48,7 +48,7 @@
 2. **Lockstep:** `state.json.version == handoff.md version`; оба в одном коммите.
 3. **Контракт state.json:** поля `project, version, updated, chat_ref, goal, files, todo, resume_log` на месте; `goal` ≤ 100 симв., `files` ≤ 20, `todo` ≤ 15, `resume_log` ≤ 10.
 4. **`files[]`:** все пути существуют на диске.
-5. **Решения:** активных в `decisions-active.md` ≤ 5 (6-я → `## Архив` одной строкой).
+5. **Решения:** в активной секции `decisions-active.md` (до `## Архив`) ≤ 5; 6-я → `## Архив` одной строкой.
 6. **Git:** L2-файлы без незакоммиченных изменений; `.agnes/` не в git.
 
 Путь: «FAIL → сжать/починить (тихо) → Self-Check → PASS → коммит».
